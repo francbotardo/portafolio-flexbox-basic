@@ -91,7 +91,7 @@ header{
 
 .about{
     background-color: #f0f3f5;
-    padding: 30px 0;
+    padding: 45px 5px;
     text-align: center;
 }
 
@@ -106,4 +106,22 @@ header{
     color: #999;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+/* icons section */
+.icons{
+    padding: 50px 0;
+}
+
+.container__icons{
+    display:flex;
+    text-align: center;
+}
+
+.icons_figure{
+    width: 33%;
+}
+
+.icon__subtitle{
+    margin: 20px 0;
 }
