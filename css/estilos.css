@@ -166,8 +166,8 @@ header{
 }
 
 /* footer section */
-footer{
-    width: 100%;
+.footer__container{
+    width: 100%;       
     height: 700px;
     padding: 60px 0;
     background-image: url(../img/footer.png);    
@@ -214,6 +214,27 @@ footer{
 }
 
 .footer__input--textarea{
+    min-width: 100%;
+    max-width: 100%;
     min-height: 150px;
     max-height: 150px;
+}
+
+.footer__button{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.footer__submit{
+    display: inline-block;
+    padding: 15px 25px;
+    background: none;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.footer__submit:hover{
+    background-color: #15a4fa;
+    cursor: pointer;
 }
